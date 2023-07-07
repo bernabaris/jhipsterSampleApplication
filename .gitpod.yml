@@ -5,7 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: npm install && npm run build && ./mvnw install -DskipTests=false
-    command: npm run start
+  - init: sdk default java 17.0.7.fx-zulu & npm install && npm run build && ./mvnw install -DskipTests=false
+    command: ./mvnw
 
 
